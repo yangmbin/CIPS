@@ -8,12 +8,14 @@ CIPS
 天的社团消息，从而不遗漏任何重要的信息！
 
 ---项目简介---
+
 1.项目名称：社团信息发布系统（CIPS）
 
 2.技术和工具：java、jsp、mysql server、Navicat for MySql和apache tomcat
 
 
 ---如何运行---
+
 1.下载并安装apache tomcat，也即web应用服务器，我们所使用版本为6.0.29免安装版
 
 2.下载并安装Mysql server数据库服务器，版本为5.0
@@ -50,6 +52,7 @@ CIPS
 
 
 ---代码文件说明---
+
 bk1.jpg			——项目中用到的图片
 home.jsp		——表示系统首页，游客可以浏览社团发布的信息
 login.jsp		——表示登录页面
