@@ -30,6 +30,7 @@ CIPS
 
 
   comment表建立如下字段：
+  
   id       ——表示评论的编号ID          ——int		——主键
   
   iid      ——表示所评论的社团信息的ID	——int
@@ -40,6 +41,7 @@ CIPS
 
 
   information表建立如下字段：
+  
   id       ——表示社团信息编号ID		——int		——主键
   
   title    ——表示社团信息标题		——varchar
@@ -52,6 +54,7 @@ CIPS
 
 
   user表建立如下字段：
+  
   username ——表示用户名		——varchar	——主键
   
   password ——表示密码			——varchar
@@ -73,14 +76,26 @@ CIPS
 ---代码文件说明---
 
 bk1.jpg			——项目中用到的图片
+
 home.jsp		——表示系统首页，游客可以浏览社团发布的信息
+
 login.jsp		——表示登录页面
+
 login_in.jsp		——表示登录成功后到达的页面
+
 register.jsp		——表示注册的界面
+
 register_in.jsp		——表示注册操作的逻辑页，判断合法性的操作
+
 login_judge.jsp		——表示登录操作的逻辑页，用以判断帐号和密码等
+
 publish_info.jsp	——发布信息的页面
+
 publish_process.jsp	——处理发布信息的逻辑页面
+
 user_home.jsp		——显示用户发表过的信息页面
+
 comment.jsp		——对社团信息发表评论的页面
+
 comment_store.jsp	——对发布的评论存入数据库等操作
+
