@@ -7,11 +7,14 @@ CIPS
 评论等等功能，为社团提供了一个发布信息的平台，而普通用户则可以以游客身份查看每
 天的社团消息，从而不遗漏任何重要的信息！
 
+
+
 ---项目简介---
 
 1.项目名称：社团信息发布系统（CIPS）
 
 2.技术和工具：java、jsp、mysql server、Navicat for MySql和apache tomcat
+
 
 
 ---如何运行---
@@ -25,30 +28,46 @@ CIPS
 4.利用mysql建立一个数据库，名称为info，并且在上面建立3张表：comment、information和
   user,分别用于保存评论信息、社团发布的信息和用户信息
 
+
   comment表建立如下字段：
   id       ——表示评论的编号ID          ——int		——主键
+  
   iid      ——表示所评论的社团信息的ID	——int
+  
   content  ——表示评论的内容            ——text
+  
   username ——表示发表评论用户的名称	——varchar
+
 
   information表建立如下字段：
   id       ——表示社团信息编号ID		——int		——主键
+  
   title    ——表示社团信息标题		——varchar
+  
   content  ——表示社团信息内容		——text
+  
   username ——表示发布人		——varchar
+  
   date     ——表示发布时间		——varchar
+
 
   user表建立如下字段：
   username ——表示用户名		——varchar	——主键
+  
   password ——表示密码			——varchar
+
 
 5.CIPS文件夹为所有的源代码和资源，把里面所有的内容放入tomact中/webapps/test目录下
 
+
 6.运行mysql数据库并点击tomcat中bin文件夹下的startup.bat文件运行web服务器
+
 
 7.在浏览器中输入http://localhost:8080/test/login.jsp即可运行，localhost可改为本机IP
 
+
 注：我们所运行环境为windows7，建议使用chrome、IE、搜狗等浏览器，不建议360
+
 
 
 ---代码文件说明---
