@@ -1,4 +1,4 @@
-> 社团信息发布系统——CIPS
+> Web应用——社团信息发布系统(CIPS)
 ------------------------
 
 ### 【Community Information Publish System】
