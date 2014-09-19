@@ -1,32 +1,27 @@
-CIPS
-====
+> 社团信息发布系统——CIPS
+------------------------
 
-【Community Information Publish System】
+### 【Community Information Publish System】
+    这是一个社团信息发布系统的校园应用，该系统提供了注册、登录、发布消息、查看消息、
+    评论等等功能，为社团提供了一个发布信息的平台，而普通用户则可以以游客身份查看每
+    天的社团消息，从而不遗漏任何重要的信息！
 
-这是一个社团信息发布系统的校园应用，该系统提供了注册、登录、发布消息、查看消息、
-评论等等功能，为社团提供了一个发布信息的平台，而普通用户则可以以游客身份查看每
-天的社团消息，从而不遗漏任何重要的信息！
+### 【---项目简介---】
 
+    1.项目名称：社团信息发布系统（CIPS）
 
+    2.技术和工具：java、jsp、mysql server、Navicat for MySql和apache tomcat
 
-【---项目简介---】
+### 【---如何运行---】
 
-1.项目名称：社团信息发布系统（CIPS）
+  1.下载并安装apache tomcat，也即web应用服务器，我们所使用版本为6.0.29免安装版
 
-2.技术和工具：java、jsp、mysql server、Navicat for MySql和apache tomcat
+  2.下载并安装Mysql server数据库服务器，版本为5.0
+  
+  3.下载并安装Mysql图形化界面（可选），也即Navicat for Mysql
 
-
-
-【---如何运行---】
-
-1.下载并安装apache tomcat，也即web应用服务器，我们所使用版本为6.0.29免安装版
-
-2.下载并安装Mysql server数据库服务器，版本为5.0
-
-3.下载并安装Mysql图形化界面（可选），也即Navicat for Mysql
-
-4.利用mysql建立一个数据库，名称为info，并且在上面建立3张表：comment、information和
-  user,分别用于保存评论信息、社团发布的信息和用户信息
+  4.利用mysql建立一个数据库，名称为info，并且在上面建立3张表：comment、information和
+    user,分别用于保存评论信息、社团发布的信息和用户信息
 
 
   comment表建立如下字段：
